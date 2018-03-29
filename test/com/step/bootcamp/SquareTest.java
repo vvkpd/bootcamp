@@ -12,16 +12,16 @@ Ensures the correctness of area, perimeter of square
  */
 public class SquareTest {
 
-  private Square square;
+  private Rectangle square;
 
   @Before
   public void setUp() {
-    square = new Square(8);
+    square = new Rectangle(8);
   }
 
   @Test
   public void shouldReturnAreaWhenSideIs5() {
-    Square square = new Square(5);
+    Rectangle square = new Rectangle(5);
     assertThat(square.area(),is(25.0));
   }
 
@@ -32,7 +32,7 @@ public class SquareTest {
 
   @Test
   public void shouldReturnPerimeterWhenSideIs5() {
-    Square square = new Square(5);
+    Rectangle square = new Rectangle(5);
     assertThat(square.perimeter(),is(20.0));
   }
 
