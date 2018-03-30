@@ -3,10 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="97442b9a-7075-4a4a-9002-e539444f91a7" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/bootcamp/com/step/bootcamp/Probability.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/bootcamp/com/step/bootcamp/ProbabilityTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/step/bootcamp/Probability.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/com/step/bootcamp/ProbabilityTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bootcamp/com/step/bootcamp/Feet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bootcamp/com/step/bootcamp/Inches.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bootcamp/com/step/bootcamp/Length.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bootcamp/com/step/bootcamp/Length.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/bootcamp/com/step/bootcamp/FeetTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/step/bootcamp/Feet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/step/bootcamp/Inches.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/step/bootcamp/Length.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/step/bootcamp/Length.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/com/step/bootcamp/FeetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/step/bootcamp/LengthTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,11 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="FeetTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/com/step/bootcamp/FeetTest.java">
+      <file leaf-file-name="LengthTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/com/step/bootcamp/LengthTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="149">
+              <caret line="11" column="44" lean-forward="true" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -35,37 +39,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Feet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/step/bootcamp/Feet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-              <folding>
-                <element signature="e#115#116#0" expanded="true" />
-                <element signature="e#143#144#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Inches.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/step/bootcamp/Inches.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
-              <folding>
-                <element signature="e#120#121#0" expanded="true" />
-                <element signature="e#148#149#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Length.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Length.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/step/bootcamp/Length.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="24" selection-start-column="24" selection-end-column="24" />
+            <state relative-caret-position="595">
+              <caret line="35" column="2" selection-start-line="35" selection-start-column="2" selection-end-line="35" selection-end-column="2" />
+              <folding>
+                <element signature="e#285#286#0" expanded="true" />
+                <element signature="e#336#337#0" expanded="true" />
+                <element signature="e#383#384#0" expanded="true" />
+                <element signature="e#434#435#0" expanded="true" />
+                <element signature="e#848#849#0" expanded="true" />
+                <element signature="e#889#890#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -75,6 +61,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -83,6 +71,9 @@
     <findStrings>
       <find>per</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -107,10 +98,13 @@
         <option value="$PROJECT_DIR$/src/com/step/bootcamp/Probability.java" />
         <option value="$PROJECT_DIR$/test/com/step/bootcamp/ProbabilityTest.java" />
         <option value="$PROJECT_DIR$/test/com/step/bootcamp/LenghtTest.java" />
-        <option value="$PROJECT_DIR$/test/com/step/bootcamp/LengthTest.java" />
         <option value="$PROJECT_DIR$/src/com/step/bootcamp/Feet.java" />
         <option value="$PROJECT_DIR$/src/com/step/bootcamp/Inches.java" />
         <option value="$PROJECT_DIR$/test/com/step/bootcamp/FeetTest.java" />
+        <option value="$PROJECT_DIR$/test/com/step/bootcamp/LengthTest.java" />
+        <option value="$PROJECT_DIR$/src/com/step/bootcamp/Unit.java" />
+        <option value="$PROJECT_DIR$/src/com/step/bootcamp/Converter.java" />
+        <option value="$PROJECT_DIR$/src/com/step/bootcamp/LengthUnit.java" />
         <option value="$PROJECT_DIR$/src/com/step/bootcamp/Length.java" />
       </list>
     </option>
@@ -121,10 +115,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1680" />
-    <option name="height" value="976" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="104" />
+    <option name="width" value="1551" />
+    <option name="height" value="895" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -165,6 +159,10 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="bootcamp" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="bootcamp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -184,6 +182,9 @@
     <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.step.bootcamp" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.step.bootcamp" />
     </key>
@@ -200,14 +201,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.LengthTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="FeetTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LengthTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="bootcamp" />
       <extension name="coverage">
         <pattern>
@@ -218,7 +219,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.step.bootcamp" />
-      <option name="MAIN_CLASS_NAME" value="com.step.bootcamp.FeetTest" />
+      <option name="MAIN_CLASS_NAME" value="com.step.bootcamp.LengthTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -230,7 +231,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="FeetTest.shouldReturnTrueFor1FeetAnd12Inches" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LengthTest.shouldReturnTrueFor1FeetAnd12Inches" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="bootcamp" />
       <extension name="coverage">
         <pattern>
@@ -241,7 +242,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.step.bootcamp" />
-      <option name="MAIN_CLASS_NAME" value="com.step.bootcamp.FeetTest" />
+      <option name="MAIN_CLASS_NAME" value="com.step.bootcamp.LengthTest" />
       <option name="METHOD_NAME" value="shouldReturnTrueFor1FeetAnd12Inches" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -374,13 +375,13 @@
       <item itemvalue="JUnit.ProbabilityTest" />
       <item itemvalue="JUnit.ProbabilityTest.shouldReturnAndOfProbabilitiesOfDiceCoinCards" />
       <item itemvalue="JUnit.ProbabilityTest.shouldReturnOrOfTwoProbabilities" />
-      <item itemvalue="JUnit.FeetTest" />
-      <item itemvalue="JUnit.FeetTest.shouldReturnTrueFor1FeetAnd12Inches" />
+      <item itemvalue="JUnit.LengthTest" />
+      <item itemvalue="JUnit.LengthTest.shouldReturnTrueFor1FeetAnd12Inches" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FeetTest" />
-        <item itemvalue="JUnit.FeetTest.shouldReturnTrueFor1FeetAnd12Inches" />
+        <item itemvalue="JUnit.LengthTest" />
+        <item itemvalue="JUnit.LengthTest.shouldReturnTrueFor1FeetAnd12Inches" />
         <item itemvalue="JUnit.ProbabilityTest.shouldReturnOrOfTwoProbabilities" />
         <item itemvalue="JUnit.ProbabilityTest.shouldReturnAndOfProbabilitiesOfDiceCoinCards" />
         <item itemvalue="JUnit.ProbabilityTest" />
@@ -396,47 +397,48 @@
       <updated>1522228442092</updated>
       <workItem from="1522228446298" duration="6212000" />
       <workItem from="1522293957991" duration="13966000" />
-      <workItem from="1522384157265" duration="6535000" />
+      <workItem from="1522384157265" duration="16345000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LengthTest - 2018.03.30 at 12h 37m 26s.xml">
+    <history-entry file="LengthTest_shouldReturnTrueFor1FeetAnd12Inches - 2018.03.30 at 15h 40m 47s.xml">
+      <configuration name="LengthTest.shouldReturnTrueFor1FeetAnd12Inches" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LengthTest_shouldReturnTrueFor1FeetAnd12Inches - 2018.03.30 at 15h 44m 14s.xml">
+      <configuration name="LengthTest.shouldReturnTrueFor1FeetAnd12Inches" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LengthTest - 2018.03.30 at 15h 44m 30s.xml">
       <configuration name="LengthTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LengthTest - 2018.03.30 at 12h 39m 44s.xml">
+    <history-entry file="LengthTest - 2018.03.30 at 15h 50m 51s.xml">
       <configuration name="LengthTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FeetTest - 2018.03.30 at 13h 00m 23s.xml">
-      <configuration name="FeetTest" configurationId="JUnit" />
+    <history-entry file="LengthTest - 2018.03.30 at 16h 23m 22s.xml">
+      <configuration name="LengthTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FeetTest_shouldReturnTrueFor1FeetAnd12Inches - 2018.03.30 at 13h 02m 54s.xml">
-      <configuration name="FeetTest.shouldReturnTrueFor1FeetAnd12Inches" configurationId="JUnit" />
+    <history-entry file="LengthTest - 2018.03.30 at 17h 23m 54s.xml">
+      <configuration name="LengthTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FeetTest - 2018.03.30 at 13h 03m 53s.xml">
-      <configuration name="FeetTest" configurationId="JUnit" />
+    <history-entry file="LengthTest - 2018.03.30 at 17h 25m 30s.xml">
+      <configuration name="LengthTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FeetTest - 2018.03.30 at 13h 07m 49s.xml">
-      <configuration name="FeetTest" configurationId="JUnit" />
+    <history-entry file="LengthTest - 2018.03.30 at 17h 25m 50s.xml">
+      <configuration name="LengthTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FeetTest - 2018.03.30 at 13h 53m 45s.xml">
-      <configuration name="FeetTest" configurationId="JUnit" />
+    <history-entry file="LengthTest - 2018.03.30 at 17h 26m 32s.xml">
+      <configuration name="LengthTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FeetTest - 2018.03.30 at 13h 54m 08s.xml">
-      <configuration name="FeetTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FeetTest - 2018.03.30 at 13h 57m 54s.xml">
-      <configuration name="FeetTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FeetTest - 2018.03.30 at 14h 14m 55s.xml">
-      <configuration name="FeetTest" configurationId="JUnit" />
+    <history-entry file="LengthTest - 2018.03.30 at 17h 26m 46s.xml">
+      <configuration name="LengthTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26713000" />
+    <option name="totallyTimeSpent" value="36523000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="976" extended-state="0" />
+    <frame x="0" y="23" width="1680" height="976" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -445,12 +447,13 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="5" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.221843" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2741752" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32992035" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1904762" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1923077" />
       <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32875" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
@@ -462,34 +465,33 @@
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3287827" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Coverage" order="7" side_tool="true" weight="0.32967034" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22190475" />
+      <window_info anchor="right" id="Coverage" order="6" side_tool="true" weight="0.32967034" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29920363" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.1904762" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.1923077" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3287827" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info id="Designer" order="2" />
-      <window_info id="UI Designer" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32875" />
       <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32992035" />
-      <window_info anchor="right" id="Maven Projects" order="6" />
-      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32992035" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info id="Favorites" order="3" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -563,30 +565,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/step/bootcamp/FeetTest.java">
+    <entry file="file://$PROJECT_DIR$/src/com/step/bootcamp/Inches.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="204">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#120#121#0" expanded="true" />
+            <element signature="e#148#149#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/step/bootcamp/Unit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/step/bootcamp/LengthTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="11" column="44" lean-forward="true" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/step/bootcamp/Length.java">
+    <entry file="file://$PROJECT_DIR$/src/com/step/bootcamp/Converter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="24" selection-start-column="24" selection-end-column="24" />
+        <state relative-caret-position="85">
+          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/step/bootcamp/Inches.java">
+    <entry file="file://$PROJECT_DIR$/src/com/step/bootcamp/LengthUnit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+        <state relative-caret-position="119">
+          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
           <folding>
-            <element signature="e#120#121#0" expanded="true" />
-            <element signature="e#148#149#0" expanded="true" />
+            <element signature="e#132#133#0" expanded="true" />
+            <element signature="e#160#161#0" expanded="true" />
+            <element signature="e#187#188#0" expanded="true" />
+            <element signature="e#216#217#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/step/bootcamp/Length.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="2" selection-start-line="35" selection-start-column="2" selection-end-line="35" selection-end-column="2" />
+          <folding>
+            <element signature="e#285#286#0" expanded="true" />
+            <element signature="e#336#337#0" expanded="true" />
+            <element signature="e#383#384#0" expanded="true" />
+            <element signature="e#434#435#0" expanded="true" />
+            <element signature="e#848#849#0" expanded="true" />
+            <element signature="e#889#890#0" expanded="true" />
           </folding>
         </state>
       </provider>
