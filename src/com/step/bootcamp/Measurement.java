@@ -2,11 +2,11 @@ package com.step.bootcamp;
 
 import java.util.Objects;
 
-public class Measurement<T extends Unit> {
+public class Measurement {
   private final double value;
-  private final T unit;
+  private final Unit unit;
 
-  public Measurement(double value, T unit) {
+  public Measurement(double value, Unit unit) {
     this.value = value;
     this.unit = unit;
   }
@@ -16,7 +16,7 @@ public class Measurement<T extends Unit> {
     if (this == another) return true;
     if (another == null || getClass() != another.getClass()) return false;
     Measurement measurement = (Measurement) another;
-    if(measurement.unit.getClass() != unit.getClass()) return false;
+    if(!measurement.unit.isSameType(unit)) return false;
     return Double.compare(measurement.unit.toBaseUnit(measurement.value), unit.toBaseUnit(value)) == 0;
   }
 
