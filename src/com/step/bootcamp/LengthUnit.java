@@ -1,15 +1,15 @@
 package com.step.bootcamp;
 
 public enum LengthUnit {
-  FEET(12),INCH(1);
+  FEET(30),INCH(2.5),CENTIMETRES(1),MILLIMETRES(0.1);
 
-  private double inchMultiplier;
+  private final double cmMultiplier;
 
-  public double toInches(double value) {
-    return this.inchMultiplier * value;
+  public double toCentimetres(double value) {
+    return this.cmMultiplier * value;
   }
 
-  LengthUnit(int ratio) {
-    this.inchMultiplier = ratio;
+  LengthUnit(double ratio) {
+    this.cmMultiplier = ratio;
   }
 }
