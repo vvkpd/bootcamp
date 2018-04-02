@@ -1,11 +1,12 @@
 package com.step.bootcamp;
 
-public enum LengthUnit {
+public enum LengthUnit implements Unit{
   FEET(30),INCH(2.5),CENTIMETRES(1),MILLIMETRES(0.1);
 
   private final double cmMultiplier;
 
-  public double toCentimetres(double value) {
+  @Override
+  public double toBaseUnit(double value) {
     return this.cmMultiplier * value;
   }
 
